@@ -1,0 +1,47 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EACAAC"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <CheckBox
+        android:id="@+id/cb_Android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="12dp"
+        />
+    <CheckBox
+        android:id="@+id/cbIos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOS"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="12dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbWindows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Window"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="12dp"
+        />
+
+</LinearLayout>
